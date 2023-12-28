@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;c
+    box-sizing: border-box;
+}
+
+.container1{
+    background-color: rgb(7, 2, 26);
+}
+
+.container1 .border-info{
+    --bs-border-opacity: 0.3;
+}
+.container1 .navbar{
+    --bs-bg-opacity: 0.4;
+}
+
+body .navbar a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav-items{
+    margin-right: 20px;
+}
+
+.button{
+    padding-left: 30px;
+}
+
+.container2 .p1{
+    font-size: 15px;
+    padding-left: 10%;
+    margin-top: 10vh;
+}
+.p2{
+    font-size: 25px;
+    padding-left: 10%;
+}
+
+.p3{
+    font-size: 40px;
+    padding-left: 10%;
+    font-weight: 600;
+}
+
+.p4{
+    display: flex;
+    font-size: 15px;
+    padding-left: 10%;
+}
+
+.hire{
+
+    display: inline-block;
+    margin-left: 40%;
+}
+
+/* .foot{
+    height: 70vh;
+    /* width: fit-con+tent; */
+    float: right;
+    margin-bottom: 100px;
+    padding-bottom: 250px;
+    margin-top: 80px;
+    margin-right: 100px;
+} */
+
+
+.footer .container{
+    font-size: 15px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+body .footer a{
+    text-decoration: none;
+    color: aliceblue;
+}
+body .footer{
+    --bs-bg-opacity: 0.5;
+}
+
+body .footer .logo .Flogo{
+    text-align: center;
+}
+
+
+
+.footer .links a{
+    /* display: flex; */
+    
+}
+
+
+
+
+

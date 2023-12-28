@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="04.css">
+</head>
+<style>
+    body {
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: rgb(2, 2, 36);
+    }
+    .Form1 {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        background: white;
+        color: black;
+        padding: 10px;
+        justify-content: center;
+        margin-left: 40%;
+        margin-top: 20%;
+    }
+    
+    .Form1 .input-box {
+        width: 100%;
+        height: 50px;
+    }
+    .input-box .codehim{
+        padding-left: 5px;
+        color: gray;
+    }
+    
+    .input-box input{
+        width: 100%;
+        height: 60%;
+        border: 0.5px solid gray;
+        border-radius: 3px;
+    }
+    .input-box a{
+        padding-left: 175px;
+        text-decoration: none;
+        color: black;
+    }
+    .Form1 .btn{
+        width: 100%;
+        height: 40px;
+        background: rgb(245, 221, 6);
+        border: 0;
+        border-radius: 3px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .Form1 .remember lable{
+        padding-left: 5px;
+    }
+    .Form1 .Sign-up{
+        text-align: center;
+        color: gray;
+    }
+    .Sign-up p{
+        font-size: 15.5px;
+    }
+    .Sign-up a{
+        text-decoration: none;
+        color: black;
+    }
+
+</style>
+
+<body class="container1">
+    <div class="navbar container-fluid d-flex justify-content-between navbar-expand-lg border-bottom border-info bg-black ">
+        <div class="nav">
+            <a href="navbar-brand" href="#">
+                <img src="img.svg" alt="JOY" width="50" height="30" class="d-inline-block align-text-center">
+                Joy
+            </a>
+        </div>
+
+        <div class="nav-items d-flex nav justify-content-between">
+            <ul class="nav nav-pills">
+                <li class="nav-item1">
+                    <a href="01.html" class="nav-link" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item2">
+                    <a href="02.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item3">
+                    <a href="03.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item4">
+                    <a href="04.html" class="nav-link">Contacts</a>
+                </li>
+            </ul>
+            <div class="button">
+                <a class="btn btn-outline-primary rounded-4" href="#" role="button">Log in</a>
+            </div>
+        </div>
+    </div>
+<div class="Form1">
+        <form action="">
+            <div class="input-box">
+                <label>Username/Email</label><br>
+                <input type="text" id="username/Email" name="username/email" value="codehim" class="codehim">
+            </div><br>
+
+            <div class="input-box">
+                <label>Password</label>
+                <a href="https://www.youtube.com">Forget?</a><br>
+                <input type="password" id="password" name="password">
+            </div><br>
+
+            <div class="remember">
+                <input type="checkbox" checked="true"><lable>Remember me?</lable>
+            </div><br>
+
+                <input type="submit" id="submit" value="Log in" class="btn"><br><br>
+
+            <div class="Sign-up">
+                 <p>Not a member? <a href="#">Sign up</a></p>
+            </div>
+        </form>
+    </div>
+
+    <!-- <footer class="footer mt-auto py-5 bg-dark container-fluid d-flex border-top justify-content-center">
+        <div class="logo">
+            <div class="Flogo">
+                <a href="navbar-brand" href="#">
+                    <img src="img.svg" alt="JOY" width="50" height="30" class="d-inline-block align-text-center">
+                    Joy
+                </a>
+            </div><br>
+    
+            <div class="f-items d-flex nav justify-content-between">
+                        <a href="#" class="nav-link">Home</a>
+                        <a href="#" class="nav-link">About Me</a>                
+                        <a href="#" class="nav-link">Projects</a>                
+                        <a href="#" class="nav-link">Contacts</a> 
+            </div><br><br><b><br><br> 
+        </div>
+        <div class="links container-fluid">
+            <a href="links" href="#">
+                <img src="fb.svg" alt="JOY" width="30" height="35" class="d-inline-block">
+            </a>
+            <a href="links" href="#">
+                <img src="ig.svg" alt="JOY" width="30" height="30" class="d-inline-block">
+            </a>
+            <a href="links" href="#">
+                <img src="tw.svg" alt="JOY" width="20" height="200" class="d-inline-block">
+            </a>
+        </div>         
+        </footer> -->
+    
+
+</body>
+</html>
